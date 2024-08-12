@@ -1,5 +1,5 @@
-import { Provide, Controller, Post, Get, Body, Param, Inject } from '@midwayjs/decorator';
-import { Context } from 'egg';
+import { Provide, Controller, Post, Get, Body, Param, Inject } from '@midwayjs/core';
+import { Context } from '@midwayjs/koa';
 import { Repository } from 'typeorm';
 import { Comment } from '../entity/comment';
 import { User } from '../entity/user';
