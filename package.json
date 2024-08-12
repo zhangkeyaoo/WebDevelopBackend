@@ -17,6 +17,7 @@
     "express": "^4.19.2",
     "koa-body": "^6.0.1",
     "koa-static": "^5.0.0",
+    "mysql": "^2.18.1",
     "typeorm": "^0.3.20"
   },
   "devDependencies": {
